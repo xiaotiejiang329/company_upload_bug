@@ -45,7 +45,7 @@ jobs:
         fi
         for ((i=0;i<$user_num;i++))
         do
-        python3 autoCheck.py <<EOF
+        python3 bug_upload.py <<EOF
         ${user_list[$i]}
         ${pwd_list[$i]}
         EOF
